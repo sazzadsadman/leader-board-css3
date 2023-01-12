@@ -80,12 +80,21 @@ hr {
     font-size: 16px;
 }
 /* Courses Styles */
+.courses {
+    display: flex;
+    gap: 23px;
+}
+.course{
+    padding: 5px 20px;
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;
 }
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .fa-star.filled{
     color: #FFC014;
@@ -96,5 +105,11 @@ hr {
 .fa-star.empty{
     color:#AEAEAE;
 }
-
-#AEAEAE
+.course-duration {
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 5px 10px;
+    color: #FF4A60;
+    font-weight: 600;
+    font-size: 14.6913px;
+}
