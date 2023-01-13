@@ -120,3 +120,33 @@ hr {
     font-weight: 600;
     font-size: 14.6913px;
 }
+
+/* ----------------------
+    Media Queries
+------------------------- */
+
+/* Mobile devices */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        
+    }
+    .section-title{
+        text-align: center;
+    }
+
+}
